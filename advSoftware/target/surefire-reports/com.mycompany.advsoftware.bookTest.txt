@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.advsoftware.bookTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.652 sec <<< FAILURE!
+com.mycompany.advsoftware.bookTest.testCheck_addedbook()  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.mycompany.advsoftware.book.check_addedbook(String)" because "instance" is null
+	at com.mycompany.advsoftware.bookTest.testCheck_addedbook(bookTest.java:60)
+
+com.mycompany.advsoftware.bookTest.testCheck_addedbook1()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.mycompany.advsoftware.book.check_addedbook(String)" because "instance" is null
+	at com.mycompany.advsoftware.bookTest.testCheck_addedbook1(bookTest.java:71)
+
+com.mycompany.advsoftware.bookTest.testMain()  Time elapsed: 0.639 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at com.mycompany.advsoftware.bookTest.testMain(bookTest.java:48)
+
